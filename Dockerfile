@@ -3,7 +3,6 @@ MAINTAINER hinastory
 
 WORKDIR /testsvr
 COPY testsvr /testsvr
-COPY start.sh /start.sh
 
 RUN apk update && apk add --no-cache git
 
