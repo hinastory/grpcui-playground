@@ -15,5 +15,5 @@ docker build --rm -t hinastory/grpcui-playground .
 ## running
 
 ```sh
-docker run --rm -p 8080:8080 hinastory/grpcui-playground
+docker run --rm -p 8080:8080 hinastory/grpcui-playground:v0.1.4
 ```
